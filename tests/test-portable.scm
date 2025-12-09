@@ -24,7 +24,7 @@
           (display ". Expected ")
           (display (test-result-ref runner 'expected-value))
           (display ", got ")
-          (display (test-result-ref runner 'actual))
+          (display (test-result-ref runner 'actual-value))
           (display ".\n")))))
     (test-final
      (lambda (runner)
